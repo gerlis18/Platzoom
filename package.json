@@ -1,0 +1,21 @@
+{
+  "name": "platzoom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerlis18/Platzoom.git"
+  },
+  "keywords": [
+    "platzoom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Gerlis Álvarez C. <gerlis1997@gmail.com> (https://github.com/gerlis18)",
+  "license": "MIT"
+}
