@@ -2,8 +2,9 @@
   "name": "platzoom",
   "version": "0.1.0",
   "description": "Traductor de idioma platzom",
-  "main": "index.js",
+  "main": "dist/src/platzoom.js",
   "scripts": {
+    "build": "babel src/platzoom.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
     "js"
   ],
   "author": "Gerlis Álvarez C. <gerlis1997@gmail.com> (https://github.com/gerlis18)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
